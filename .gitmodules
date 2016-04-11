@@ -1,42 +1,42 @@
 [submodule "comment"]
 	path = comment
-	url = git@github.com:jnow-87/vim-comment.git
+	url = https://github.com/jnow-87/vim-comment.git
 	branch = master
 [submodule "config"]
 	path = config
-	url = git@github.com:jnow-87/vim-config.git
+	url = https://github.com/jnow-87/vim-config.git
 	branch = master
 [submodule "fastcp"]
 	path = fastcp
-	url = git@github.com:jnow-87/vim-fastcp.git
+	url = https://github.com/jnow-87/vim-fastcp.git
 	branch = master
 [submodule "fold"]
 	path = fold
-	url = git@github.com:jnow-87/vim-fold.git
+	url = https://github.com/jnow-87/vim-fold.git
 	branch = master
 [submodule "make"]
 	path = make
-	url = git@github.com:jnow-87/vim-make.git
+	url = https://github.com/jnow-87/vim-make.git
 	branch = master
 [submodule "scratch"]
 	path = scratch
-	url = git@github.com:jnow-87/vim-scratch.git
+	url = https://github.com/jnow-87/vim-scratch.git
 	branch = master
 [submodule "tagcomplete"]
 	path = tagcomplete
-	url = git@github.com:jnow-87/vim-tagcomplete.git
+	url = https://github.com/jnow-87/vim-tagcomplete.git
 	branch = master
 [submodule "taglist"]
 	path = taglist
-	url = git@github.com:jnow-87/vim-taglist.git
+	url = https://github.com/jnow-87/vim-taglist.git
 	branch = jnow-87
 [submodule "clang_complete"]
 	path = clang_complete
-	url = git@github.com:jnow-87/vim-clang-complete.git
+	url = https://github.com/jnow-87/vim-clang-complete.git
 	branch = jnow-87
 [submodule "xterm-color-table"]
 	path = xterm-color-table
-	url = git@github.com:jnow-87/vim-xterm-color-table
+	url = https://github.com/jnow-87/vim-xterm-color-table
 	branch = jnow-87
 [submodule "airline"]
 	path = airline
@@ -44,9 +44,9 @@
 	branch = master
 [submodule "gtd"]
 	path = gtd
-	url = git@github.com:jnow-87/vim-gtd.git
+	url = https://github.com/jnow-87/vim-gtd.git
 	branch = master
 [submodule "util"]
 	path = util
-	url = git@github.com:jnow-87/vim-util.git
+	url = https://github.com/jnow-87/vim-util.git
 	branch = master
