@@ -50,3 +50,7 @@
 	path = util
 	url = https://github.com/jnow-87/vim-util.git
 	branch = master
+[submodule "airline-themes"]
+	path = airline-themes
+	url = git@github.com:jnow-87/airline-themes.git
+	branch = master
