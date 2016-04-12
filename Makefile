@@ -5,7 +5,7 @@
 echo := @echo
 cp := @cp -ru
 mkdir := @mkdir -p
-rm := @rm -r
+rm := @rm -rf
 
 
 ####
