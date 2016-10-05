@@ -26,10 +26,6 @@
 	path = tagcomplete
 	url = git@github.com:jnow-87/vim-tagcomplete.git
 	branch = master
-[submodule "taglist"]
-	path = taglist
-	url = git@github.com:jnow-87/vim-taglist.git
-	branch = jnow-87
 [submodule "clang_complete"]
 	path = clang_complete
 	url = git@github.com:jnow-87/vim-clang-complete.git
