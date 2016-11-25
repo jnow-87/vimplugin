@@ -50,3 +50,7 @@
 	path = airline-themes
 	url = git@github.com:jnow-87/airline-themes.git
 	branch = master
+[submodule "snippet"]
+	path = snippet
+	url = git@github.com:jnow-87/vim-snippet.git
+	branch = master
