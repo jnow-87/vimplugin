@@ -32,9 +32,11 @@ files := $(filter $(isplugin),$(patsubst ./%,%,$(shell find -type d)))
 # add vimrc
 files += $(patsubst ./%,%,$(shell find -type f -path *vimrc))
 
+# add snippets
+files += $(patsubst ./%,%,$(shell find -maxdepth 2 -type d -path *snippets))
+
 # do not consider the target directory
 files := $(filter-out $(vim_dir)%,$(files))
-
 
 ####
 ## targets
