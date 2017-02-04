@@ -54,3 +54,11 @@
 	path = snippet
 	url = git@github.com:jnow-87/vim-snippet.git
 	branch = master
+[submodule "unicode-table"]
+	path = unicode-table
+	url = git@github.com:jnow-87/vim-unicode-table.git
+	branch = master
+[submodule "qdelete"]
+	path = qdelete
+	url = git@github.com:jnow-87/vim-qdelete.vim
+	branch = master
