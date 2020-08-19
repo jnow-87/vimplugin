@@ -62,3 +62,7 @@
 	path = qdelete
 	url = git@github.com:jnow-87/vim-qdelete.vim
 	branch = master
+[submodule "gcovered"]
+	path = gcovered
+	url = git@github.com:jnow-87/vim-gcovered.git
+	branch = master
