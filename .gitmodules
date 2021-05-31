@@ -66,3 +66,6 @@
 	path = gcovered
 	url = git@github.com:jnow-87/vim-gcovered.git
 	branch = master
+[submodule "search"]
+	path = search
+	url = hb:/mnt/share/git/vim-search.git
