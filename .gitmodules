@@ -22,14 +22,6 @@
 	path = scratch
 	url = git@github.com:jnow-87/vim-scratch.git
 	branch = master
-[submodule "tagcomplete"]
-	path = tagcomplete
-	url = git@github.com:jnow-87/vim-tagcomplete.git
-	branch = master
-[submodule "clang_complete"]
-	path = clang_complete
-	url = git@github.com:jnow-87/vim-clang-complete.git
-	branch = jnow-87
 [submodule "xterm-color-table"]
 	path = xterm-color-table
 	url = git@github.com:jnow-87/vim-xterm-color-table
@@ -37,10 +29,6 @@
 [submodule "airline"]
 	path = airline
 	url = git@github.com:jnow-87/vim-airline.git
-	branch = master
-[submodule "gtd"]
-	path = gtd
-	url = git@github.com:jnow-87/vim-gtd.git
 	branch = master
 [submodule "util"]
 	path = util
@@ -69,3 +57,7 @@
 [submodule "search"]
 	path = search
 	url = hb:/mnt/share/git/vim-search.git
+[submodule "be-complete"]
+	path = be-complete
+	url = git@github.com:jnow-87/vim-be-complete.git
+	branch = master
