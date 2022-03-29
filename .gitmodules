@@ -57,3 +57,6 @@
 	path = be-complete
 	url = git@github.com:jnow-87/vim-be-complete.git
 	branch = master
+[submodule "git"]
+	path = git
+	url = git@github.com:jnow-87/vim-git.git
