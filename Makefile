@@ -2,24 +2,31 @@
 ## config
 ####
 
-build_tree := .vim
-plugin_tree := .
+PREFIX ?= .vim
 
-build_script := scripts/build.sh
+echo := @echo
+build := @scripts/build.sh
+
+ifneq ($V,0)
+  verbose := $(if $V,verbose)
+endif
 
 
 ####
 ## targets
 ####
 
-.PHONY: all
-all: clean
-	$(build_script) $(plugin_tree) $(build_tree)
+.PHONE: help
+help:
+	$(echo) "(un)install plugins.\n"
+	$(echo) "Variables:"
+	$(echo) "    V       enable verbose output"
+	$(echo) "    PREFIX  target directory, default=$(PREFIX)"
 
 .PHONY: install
 install:
-	cp -r $(build_tree) ~/
+	$(build) install . $(PREFIX) $(verbose)
 
-.PHONY: clean
-clean:
-	rm -rf $(build_tree)
+.PHONY: uninstall
+uninstall:
+	$(build) uninstall . $(PREFIX) $(verbose)
