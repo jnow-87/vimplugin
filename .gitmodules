@@ -52,7 +52,7 @@
 	branch = master
 [submodule "search"]
 	path = search
-	url = hb:/mnt/share/git/vim-search.git
+	url = git@github.com:jnow-87/vim-search.git
 [submodule "be-complete"]
 	path = be-complete
 	url = git@github.com:jnow-87/vim-be-complete.git
